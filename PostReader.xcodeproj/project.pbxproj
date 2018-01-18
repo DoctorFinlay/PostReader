@@ -15,7 +15,6 @@
 		0095A8F020109AE300F1A7D6 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0095A8EF20109AE300F1A7D6 /* Post.swift */; };
 		0095A8F220109B9900F1A7D6 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0095A8F120109B9900F1A7D6 /* User.swift */; };
 		0095A8F420109DB800F1A7D6 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0095A8F320109DB800F1A7D6 /* CustomCell.swift */; };
-		0095A8F620109E8F00F1A7D6 /* PostDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0095A8F520109E8F00F1A7D6 /* PostDetailVC.swift */; };
 		0095A8F820109F0800F1A7D6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0095A8F720109F0800F1A7D6 /* Constants.swift */; };
 		0095A8FA20109FA600F1A7D6 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0095A8F920109FA600F1A7D6 /* APIService.swift */; };
 		0095A8FD2010AB4000F1A7D6 /* ModalPostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0095A8FB2010AB4000F1A7D6 /* ModalPostVC.swift */; };
@@ -33,7 +32,6 @@
 		0095A8EF20109AE300F1A7D6 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		0095A8F120109B9900F1A7D6 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		0095A8F320109DB800F1A7D6 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
-		0095A8F520109E8F00F1A7D6 /* PostDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailVC.swift; sourceTree = "<group>"; };
 		0095A8F720109F0800F1A7D6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		0095A8F920109FA600F1A7D6 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		0095A8FB2010AB4000F1A7D6 /* ModalPostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalPostVC.swift; sourceTree = "<group>"; };
@@ -89,7 +87,6 @@
 			isa = PBXGroup;
 			children = (
 				0095A8DA20109AB000F1A7D6 /* MainVC.swift */,
-				0095A8F520109E8F00F1A7D6 /* PostDetailVC.swift */,
 				0095A8FB2010AB4000F1A7D6 /* ModalPostVC.swift */,
 			);
 			path = Controller;
@@ -210,7 +207,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0095A8F220109B9900F1A7D6 /* User.swift in Sources */,
-				0095A8F620109E8F00F1A7D6 /* PostDetailVC.swift in Sources */,
 				0095A8F020109AE300F1A7D6 /* Post.swift in Sources */,
 				0095A8FD2010AB4000F1A7D6 /* ModalPostVC.swift in Sources */,
 				0095A8F420109DB800F1A7D6 /* CustomCell.swift in Sources */,
