@@ -6,6 +6,7 @@
 //  Copyright © 2018 Iain Coleman. All rights reserved.
 //
 
+
 import Foundation
 
 
@@ -43,8 +44,7 @@ class APIService {
                 completion(false)
                 return
             }
-            
-            
+
             let decoder = JSONDecoder()
             
             do {
@@ -88,8 +88,7 @@ class APIService {
                 completion(false)
                 return
             }
-            
-            
+
             let decoder = JSONDecoder()
             
             do {
@@ -104,15 +103,8 @@ class APIService {
             
         }
         task.resume()
-        
     }
+   
     
-    
-    
-    func setUsers(data: Data) {
-        
-        
-        
-    }
     
 }
